@@ -52,4 +52,11 @@ h4 {
   color: white;
   text-align: center; }
 
+@media (min-width: 600px) {
+  h2::before {
+    content: "Welcome to my website!"; } }
+@media (max-width: 599px) {
+  h2::before {
+    content: "Welcome!"; } }
+
 /*# sourceMappingURL=stylesheet.css.map */

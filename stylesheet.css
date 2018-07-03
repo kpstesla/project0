@@ -16,6 +16,9 @@ li {
   li :hover {
     background-color: black; }
 
+h4 {
+  font-style: italic; }
+
 #home {
   float: right; }
 
